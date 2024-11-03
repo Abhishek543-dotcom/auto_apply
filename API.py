@@ -242,7 +242,7 @@ for index, job_link in enumerate(job_links):
 
 # Save the data into a CSV file
 df = pd.DataFrame(job_data)
-df.to_csv('linkedin_jobs_with_full_descriptions.csv', index=False)
+df.to_csv('data_files/linkedin_jobs_details.csv', index=False)
 
 # Close the browser
 driver.quit()
